@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Generateur de citation </title>
+	<link href="https://fonts.googleapis.com/css?family=Indie+Flower|Ranchers|Roboto+Mono" rel="stylesheet">
+</head>
+<style type="text/css">
+body { background-color: #313F54 ;color: whitesmoke; }
+	.mainContains { 
+		position: absolute;
+		top: 150px;
+		left:455px;
+		width: 750px ; 
+		font-family: 'Roboto Mono', monospace;
+	 }
+
+	#btn
+	{
+		position: fixed;
+		top : 400px;
+		background-color:#005FFF ;
+		font-family: 'Roboto Mono', monospace;
+		border: none ; 
+		height: 50px ;
+		font-size: 19px ; 
+		width: 350px;
+		color: whitesmoke;
+		border-radius: 5px,5px,5px,5px;
+		box-shadow: 12px 12px 2px 1px rgba(0, 0, 255, .2);
+	 }
+	  #container { 
+		border: 1px solid #B6CCDC;
+		border-radius: 5px,5px,5px,5px;
+		height: 225px ; 
+	   }
+	
+#btn:active {
+  background-color:#222A4F;
+  box-shadow: 0 5px #49566C;
+  transform: translateY(4px);
+}
+
+</style>
+<body>
+	<div align="center" class="mainContains">
+	<div id="container">
+
+
+
+	</div>
+	<strong id="autor"> </strong>
+	<br>
+	<button id ='btn'>Generer aleatoirement </button>
+	</div>
+	<script type="text/javascript" src ="module/main.js"></script>
+	<script type="text/javascript" src ="module/collect.js"></script>
+	<script type="text/javascript" src ="randomGen.js"></script>
+
+</body>
+
+</html>
