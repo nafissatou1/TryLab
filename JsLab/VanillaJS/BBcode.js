@@ -52,16 +52,6 @@ Elmts.blink.classList.toggle("blockToggle") ;
 
 
 
-function BBcode (Elmt,partern , transforme) { 
-
-	if (partern && transforme) { 
-
-	return Elmt.replace(partern,transforme) ; 
-
-  }
-
-}
-
 	
 Elmts.suBtn.addEventListener('click', function(ev) {
 
