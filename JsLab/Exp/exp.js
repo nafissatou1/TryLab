@@ -54,4 +54,4 @@ function palindrome(mot) {
 	  mot == str ? console.log("c'est un palindrome") : console.log("c'est pas un palindrome") ; 
 }
 
-palindrome("he ca va la vache")
+

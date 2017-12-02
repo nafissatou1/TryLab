@@ -9,7 +9,7 @@ function Define () {
 
 }
 
-
+//NameSpace
 
 let make  = { 
 
@@ -32,21 +32,19 @@ let make  = {
 	 	 	}else { 
 
 				console.warn(typeof Selections) ; 
-	 	 	}
+	 	}
 
-	    }
+	   }
 
 	}  ,
 
-	RandomGenerator :  { 
+       	  RandomGenerator :  { 
 
-			randomize : function (props) { 
+ 	    randomize : function (props) { 
 			 
-			return Math.floor(Math.random() * props.length)
+	    return Math.floor(Math.random() * props.length)
+    }
 
-		}
-
-
-	}
+  }
 
 }

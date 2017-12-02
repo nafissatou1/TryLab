@@ -1,4 +1,4 @@
-(function  () { 
+
 
 let  mainApp = new Define () ; 
 
@@ -36,4 +36,4 @@ window.onload = function () {
 	shuffle()
 }
 
-})()
+
