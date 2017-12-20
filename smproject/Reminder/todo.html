@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Reminder ! </title>
+	<link href="https://fonts.googleapis.com/css?family=Acme|Indie+Flower|Ranchers|Roboto+Mono" rel="stylesheet">
+</head>
+<style>
+	body  { 
+    font-family: 'Acme',consolas;
+	background-color: #1B4D8A; 
+	color: whitesmoke;
+	 },
+	input { 
+
+	border-radius: 5px,5px,5px,5px ;
+	
+	 }	
+	#container { 
+	width: 500px ;
+	height: 400px;
+	
+	 }
+.btn { 
+		font-family: 'Acme',consolas;
+		background-color: #1A9CC4;
+		border :none ; 
+		color: whitesmoke;
+	  }
+	  .clear { 
+		font-family: 'Acme',consolas;
+		background-color: #1A9CC4;
+		border :none ; 
+		color: whitesmoke;
+		
+	   }
+	  .input {
+		font-family: 'Acme',consolas;
+		width: 400px;
+		border :none ; 
+
+	  }
+
+</style>
+<body>
+	<div align="center">
+		<form>
+			<div>
+				<label for="do"> <h1>Remind Me !</h1> </label><br><br>
+				<input type="text" name="registrate" id="do" class="input">
+				<input type ="submit" value="Save" id="save" class= "btn">
+				
+			</div>
+		</form> <br><br>
+
+			<div id="container">
+			<small> My Idea </small>
+			<ol class="list">
+				
+			</ol>
+			</div>
+			<button type ="submit" class="clear">Clean The Reminder</button>
+	</div>
+	<script type="text/javascript" src ="utilities.js"></script>
+	<script type="text/javascript" src  ="todo.js"></script>
+</body>
+</html>
